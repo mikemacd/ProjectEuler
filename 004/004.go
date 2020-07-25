@@ -11,6 +11,7 @@ import (
 type idx struct{ i, j int }
 type productStore map[int]idx
 
+// Find the largest palindrome made from the product of two 3-digit numbers.
 func main() {
 	products := productStore{}
 	for j := 999; j >= 100; j-- {
